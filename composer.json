@@ -1,6 +1,6 @@
 {
-    "name": "JSurf/mpd.class.php",
-    "description": "PHP-MPD-Client is a PHP client class for MPD.",
+    "name": "jsurf/mpd.class.php",
+    "description": "mpd.class.php from http://phpmpreloaded.sourceforge.net/ as composer package",
     "keywords": ["MPD","php","mpd.class.php"],
     "license": "GPL-2.0",
     "authors": [
