@@ -1,0 +1,23 @@
+{
+    "name": "JSurf/mpd.class.php",
+    "description": "PHP-MPD-Client is a PHP client class for MPD.",
+    "keywords": ["MPD","php","mpd.class.php"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Sven Ginka",
+            "email": "sven.ginka@gmail.com"
+        },
+        {
+            "name": "Jens Viebig",
+            "email": "jsurf@gmx.de"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "classmap": [
+            "mpd"
+        ]
+    }
+}
