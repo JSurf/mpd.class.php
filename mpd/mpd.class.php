@@ -1103,7 +1103,8 @@ class mpd {
 		$this->num_artists = $stats['artists'];
 		$this->num_songs = $stats['songs'];
 		$this->num_albums = $stats['albums'];
-		$this->xfade = $status['xfade'];
+		if(isset($status['xfade'])) $this->xfade = $status['xfade'];
+        else $this->xfade = FALSE;
 		if(isset($status['bitrate'])) $this->bitrate = $status['bitrate'];
         else $this->bitrate = FALSE;
         		
