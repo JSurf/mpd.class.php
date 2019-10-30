@@ -3,6 +3,9 @@
  * maintained by
  * - Sven Ginka (sven.ginka@gmail.com) 
  *
+ * Version mpd.class.php-1.3b 10/2019
+ * - fix compatibility with mpd 0.21.x+
+ *
  * Version mpd.class.php-1.3a 01/2013
  * - added property db_playtime
  * 
@@ -877,7 +880,7 @@ class mpd {
 		if (isset($this->COMPATIBILITY_MAX_TBL[$cmd])){
 			$req_ver_hi = $this->COMPATIBILITY_MAX_TBL[$cmd];	
 		} else {
-			$req_ver_hi = "0.20.0";
+			$req_ver_hi = "9.99.9";
 		}
 
 		$mpd_ver = $this->_computeVersionValue($this->mpd_version);
